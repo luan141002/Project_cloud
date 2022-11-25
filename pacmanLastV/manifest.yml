@@ -1,0 +1,9 @@
+---
+applications:
+- name: myapp
+  routes:
+    - route: python-1234-pacman-5678.cfapps.run.pivotal.io
+  path: ./
+  memory: 128M
+  buildpack: python_buildpack
+  command: python server.py
